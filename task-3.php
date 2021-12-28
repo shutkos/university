@@ -43,7 +43,7 @@ $data = [
             <?php
         } else {
             ?>
-            <li><a href="<?=$val['link']?>"><?=$val['title']?> > </a></li>
+            <li><a href="<?=$val['link']?>"><?=$val['title']?></a> / </li>
             <?php
         }
     }
